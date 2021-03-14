@@ -5,7 +5,7 @@ public class Point {
         /* double x = Math.pow((x2-x1), 2);
         double y = Math.pow((y2-y1), 2);
         return Math.sqrt(x+y); */
-        return Math.sqrt(Math.pow((x2-x1), 2) + Math.pow((y2-y1), 2));
+        return Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
     }
 
     public static void main(String[] args) {
