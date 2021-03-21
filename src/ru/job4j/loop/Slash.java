@@ -7,9 +7,7 @@ public class Slash {
                 boolean left = row == cell;
                 /* добавить условие, по которому нужно определить ставить ли символ или нет. */
                 boolean right = row + cell == size - 1; /* добавить условие, что нужно ставить элемент в правый угол. */
-                if (left) {
-                    System.out.print("0");
-                } else if (right) {
+                if (left || right) {
                     System.out.print("0");
                 } else {
                     System.out.print(" ");
