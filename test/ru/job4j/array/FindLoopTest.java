@@ -17,9 +17,9 @@ public class FindLoopTest {
     @Test
     public void whenArrayHas35Then2() {
         int[] data = {10, 20, 35, 43, 787, 100};
-        int el = 43;
+        int el = 35;
         int result = FindLoop.indexOf(data, el);
-        int expected = 3;
+        int expected = 2;
         Assert.assertEquals(expected, result);
     }
 
