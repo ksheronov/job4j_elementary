@@ -1,7 +1,8 @@
-package ru.job4j.array.ru.job4j.array;
+package ru.job4j.array;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.array.ArrayChar;
 
 public class ArrayCharTest {
 
