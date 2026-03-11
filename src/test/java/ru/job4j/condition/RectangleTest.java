@@ -8,6 +8,8 @@ public class RectangleTest {
 
     @Test
     void whenLength6AndWidth5ThenDiagonal7Dot81() {
+
+
         double length = 6;
         double width = 5;
         double expected = 7.81;
