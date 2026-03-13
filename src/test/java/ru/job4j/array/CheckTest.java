@@ -33,4 +33,10 @@ public class CheckTest {
         assertThat(result).isFalse();
     }
 
+    @Test
+    void whenDataMonoByOneFalseThenTrue() {
+        boolean[] data = new boolean[] {false};
+        boolean result = Check.mono(data);
+        assertThat(result).isTrue();
+    }
 }
