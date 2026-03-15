@@ -1,7 +1,6 @@
 package ru.job4j.array;
 
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MatrixCheckTest {
@@ -140,5 +139,4 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.isWin(input);
         assertThat(result).isFalse();
     }
-
 }

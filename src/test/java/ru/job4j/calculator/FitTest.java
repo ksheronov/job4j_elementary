@@ -1,12 +1,10 @@
 package ru.job4j.calculator;
 
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.withPrecision;
 
 public class FitTest {
-
     @Test
     void whenMan180Then92() {
         short input = 180;
@@ -38,5 +36,4 @@ public class FitTest {
         double output = Fit.womanWeight(input);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
-
 }

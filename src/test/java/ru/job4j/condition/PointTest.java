@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.*;
 
 public class PointTest {
@@ -28,5 +27,4 @@ public class PointTest {
         double output = Point.distance(x1, y1, x2, y2);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
-
 }

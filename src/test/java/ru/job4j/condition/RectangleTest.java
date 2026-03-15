@@ -1,11 +1,9 @@
 package ru.job4j.condition;
 
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.*;
 
 public class RectangleTest {
-
     @Test
     void whenLength6AndWidth5ThenDiagonal7Dot81() {
         double length = 6;

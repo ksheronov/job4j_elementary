@@ -1,11 +1,9 @@
 package ru.job4j.condition;
 
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class VectorTest {
-
     @Test
     void whenVectors12And34ThenResult45() {
         int x1 = 1, y1 = 2, x2 = 3, y2 = 4;
